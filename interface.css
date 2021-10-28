@@ -1,0 +1,56 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+}
+nav{
+    flex: 1;
+    text-align: right; 
+}
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+a{
+     text-decoration: none;
+     color: black;
+}
+p{
+    color:black;
+}
+.container
+{
+    max-width: 1500px  ;
+    margin: auto; 
+    margin-left: 10px; 
+    margin-right: 10px; 
+}
+.checked{
+    color: orange;
+}
+
+.dropdown{
+   position: relative;
+   display: inline-block;
+}
+.dropdown-content {
+ display: none;
+ position: absolute;
+ background-color: #2874f0;
+ min-width: 120px;
+ box-shadow: opx 8px 16px 0px rgba(0,0,0,0.2);
+ padding: 12px 16px;
+}
+.dropdown:hover .dropdown-content {
+display: block;
+}
+.header{
+    background: radial-gradient(#ffd6d6,#fff);
+}
